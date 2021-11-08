@@ -10,7 +10,7 @@ mkdir build
 cd build
 cmake -G "MinGW Makefiles" ..
 cd blink
-mingw32-make
+mingw32-make -j4
 echo ______________________________________________
 echo Results is up. Happy Coding!
 pause
